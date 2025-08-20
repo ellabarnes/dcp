@@ -1,0 +1,106 @@
+// Custom variable overrides
+// See node_modules/bootstrap/scss/_variables.scss
+
+// $body-bg: black;
+// $body-color: white;
+// $link-hover-color: grey;
+// $font-family-sans-serif: "Helvetica Neue";
+$primary: #d1b2d2;
+$secondary: #823549;
+$link-color: #b5e9f6;
+$lime: #b9d2b5;
+
+
+/* bootstrap */
+// Option A: Include all of Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+// Option B: Include parts of Bootstrap
+// See https://getbootstrap.com/docs/4.1/getting-started/theming/#importing
+
+// Required
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/mixins";
+
+// Import partials
+@import 'nav';
+@import 'jumbotron';
+
+h1 {
+  color: $secondary;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#rating, #spotify-link, #blurb, .card-title, .card-text, .card-link, #index-blurb, #db-title, #db-content, #table-head {
+  font-family: 'Mulish', sans-serif;
+}
+
+#album-name {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#rating {
+  font-style: italic;
+  background-color: $lime;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 2.5px;
+}
+
+#spotify-link {
+  background-color: $primary;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2.5px;
+}
+
+#spotify-text{
+  color: white;
+}
+
+#blurb {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 650;
+  color: $secondary;
+}
+
+.card-text, .card-link {
+  color: black;
+}
+
+#card-texts {
+  background-color: white;
+  margin-top: 10px;
+  padding: 5px;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+#index-head {
+  font-size: 4rem;
+}
+
+#db-title, #db-content {
+  font-size: 1rem;
+}
+
+#table-head {
+  background-color: $secondary;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2.5px;
+}

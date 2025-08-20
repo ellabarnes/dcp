@@ -1,0 +1,32 @@
+#jumbo {
+  background: url(../img/jumbo.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  padding-top: 12rem
+  }
+  
+#jumbo {
+  margin-bottom: 30px;
+}
+
+#jumbo-box {
+  background-color: $link-color;
+  opacity: 0.6;
+}
+
+#jumbo-head, #jumbo-sub {
+  text-align: center;
+  color: black;
+}
+
+#jumbo-head {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 6rem;
+  letter-spacing: 0.2rem;
+}
+
+#jumbo-sub {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
