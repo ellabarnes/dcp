@@ -11,12 +11,12 @@
 </div>
 <div class="container">
   <div class="row text-center">
-    {% for post in posts.Sheet1 %}
+    {% for post in posts.posts %}
     <div class="col">
       <div class="card bg-primary">
         <div class="card-body text-center p" id="cards-index">
           <div class="container" id="card-texts">
-            <h3 class="card-title"> Week {{ post.week_num }} </h3>
+            <h3 class="card-title"> {{ post.title}} </h3>
             <a href="posts/{{post.slug}}.html" class="card-link"> Read more here! </a>
           </div>
         </div>
@@ -25,4 +25,5 @@
     {% endfor %}
   </div>
 </div> 
+
 {% endblock %}

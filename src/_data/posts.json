@@ -1,10 +1,12 @@
 {
-  "Sheet1": [
+  "posts": [
     {
-      "weekly_post": "Hi everyone! I'll be using this website to update everyone who's interesed in my Disney journey. I'll be posting weekly -- at least I plan on it. I'll be posting picures, eats, pins, and more! \nHere are some commonly asked questiona abotu what I'll actually be doing in Florida:\n-- My role is merchandise at Storybook Circus in Magic Kingdom.\n-- I'll be in Florida from September to January.",
-      "week_num": "one",
-      "food_reviews": "",
-      "slug": "pre"
+      "slug": "week-zero",
+      "title": "Two weeks out",
+      "blurb": "Welcome to my blog. Sorry the name is corny, my good friend ChatGPT came up with it.",
+      "week-post": "Hi everyone! I'll be using this website to update everyone who's interested in my Disney journey. I'll be posting weekly -- at least I plan on it. I'll be posting pictures, eats, pins, and more! So far I know I’ll be working merchandise at Storybook Circus in Magic Kingdom starting in September. As of right now, my program is set to end in January unless I decide to extend it. While I’m dreading the upcoming 16 hour ride in my tiny little car, I’m getting super excited for the four park days I’ll get to spend with my Dad before I start training. I haven’t been to parks since 2018, so I’m excited to see what all has changed, at least for the most part – RIP Muppetvision 3D. That’s it for now, hopefully I actually get this blog running, because this is my fifth attempt so far.",
+      "week_num": "zero",
+      "food-reviews": ""
     }
   ]
 }

@@ -5,10 +5,11 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
-$primary: #d1b2d2;
-$secondary: #823549;
-$link-color: #b5e9f6;
-$lime: #b9d2b5;
+$primary: #F6D6E0;
+$secondary: #5E3360;
+$link-color: #D6A77A;
+$indigo: #3D3A78;
+$text: #FDFCFB;
 
 
 /* bootstrap */
@@ -50,7 +51,7 @@ h3 {
 
 #rating {
   font-style: italic;
-  background-color: $lime;
+  background-color: $indigo;
   border-radius: 5px;
   color: white;
   text-align: center;

@@ -11,18 +11,18 @@
       "name": "songs"
     },
     {
-      "fileId": "12UKEncttT8WIdFwluTnBPN6xch0GNWnSdrbDqSqedDQ",
-      "type": "sheet",
+      "fileId": "1NKBVvnWvQK0p64LB5611HIAekkqh78B0yFcCCxnH4Os",
+      "type": "doc",
       "name": "posts"
     }
   ],
-  "to_bake": [
+  "to-bake": [
     {
-      "template": "bake-album",
-      "data": "albums",
+      "template": "bake-posts",
+      "data": "posts",
       "array": "Sheet1",
       "slug": "slug",
-      "path": "albums"
+      "path": "posts"
     }
   ]
 }
