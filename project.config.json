@@ -1,16 +1,6 @@
 {
   "files": [
     {
-      "fileId": "1xEmC56eBlq0MWKE6oZamZMkd4kiul7Ttg2NG16Oy1sE",
-      "type": "sheet",
-      "name": "albums"
-    },
-    {
-      "fileId": "1VFpPiiddNXFNHlsSed5VGBXfzD1gJu7IzmokiowI09c",
-      "type": "sheet",
-      "name": "songs"
-    },
-    {
       "fileId": "1NKBVvnWvQK0p64LB5611HIAekkqh78B0yFcCCxnH4Os",
       "type": "doc",
       "name": "posts"
@@ -20,7 +10,7 @@
     {
       "template": "bake-posts",
       "data": "posts",
-      "array": "Sheet1",
+      "array": "posts",
       "slug": "slug",
       "path": "posts"
     }
