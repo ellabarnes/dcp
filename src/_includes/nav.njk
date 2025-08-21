@@ -11,7 +11,7 @@
             My posts
           </a>
           <ul class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
-            {% for post in posts.Sheet1 %}
+            {% for post in posts.posts %}
             <li><a class="dropdown-item bg-primary text-secondary" href="{{ relative_path }}posts/{{ post.slug }}.html">Week {{ post.week_num }}</a></li>
             {% endfor %}
           </ul>

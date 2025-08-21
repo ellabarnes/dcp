@@ -6,9 +6,9 @@
       "name": "posts"
     }
   ],
-  "to-bake": [
+  "to_bake": [
     {
-      "template": "bake-posts",
+      "template": "bake-post",
       "data": "posts",
       "array": "posts",
       "slug": "slug",

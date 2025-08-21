@@ -1,5 +1,4 @@
 {% extends '_templates/base.njk' %}
-
 {% set relative_path = "../" %}
 
 {% block page_title %} Week {{ week_num }} {% endblock %}
@@ -10,7 +9,7 @@
   <article class="container">
     <section class="container">
       <h4 id="table-head">Week {{week_num}}'s update</h4>
-      <p> {{weekly_post}} </p>
+      <p> {{week_post}} </p>
     </section>
   </article>
 {% endblock %}
