@@ -1,31 +1,28 @@
-#jumbo {
-  background-size: cover;
-  color: white;
-  padding-top: 12rem
-  }
   
 #jumbo {
-  margin-bottom: 30px;
-}
-
-#jumbo-box {
-  background-color: $link-color;
-  opacity: 0.6;
+  background: url(../img/castle.JPG) no-repeat center;
+  background-size: cover;
+  color: white;
+  padding-top: 12rem;
+  opacity: 0.8;
 }
 
 #jumbo-head, #jumbo-sub {
   text-align: center;
-  color: black;
+  color: $text;
+  opacity: 1;
 }
 
 #jumbo-head {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bonbon', sans-serif;
+  font-style: normal;
   font-size: 6rem;
   letter-spacing: 0.2rem;
+  opacity: 1;
 }
 
 #jumbo-sub {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'IBM Plex Serif', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
 }

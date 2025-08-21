@@ -16,7 +16,8 @@ $text: #FDFCFB;
 // Option A: Include all of Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 
 // Option B: Include parts of Bootstrap
@@ -33,15 +34,21 @@ $text: #FDFCFB;
 
 h1 {
   color: $secondary;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bonbon', sans-serif;
 }
 
 h3 {
   font-size: 1.5rem;
 }
 
-#rating, #spotify-link, #blurb, .card-title, .card-text, .card-link, #index-blurb, #db-title, #db-content, #table-head {
-  font-family: 'Mulish', sans-serif;
+.card-title{
+  font-family: 'Bonbon', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+#rating, #spotify-link, #blurb, .card-text, .card-link, #index-blurb, #db-title, #db-content, #table-head {
+  font-family: 'IBM Plex Serif', sans-serif;
 }
 
 #album-name {
@@ -56,17 +63,6 @@ h3 {
   color: white;
   text-align: center;
   padding: 2.5px;
-}
-
-#spotify-link {
-  background-color: $primary;
-  text-align: center;
-  border-radius: 5px;
-  padding: 2.5px;
-}
-
-#spotify-text{
-  color: white;
 }
 
 #blurb {
@@ -92,10 +88,6 @@ h3 {
 
 #index-head {
   font-size: 4rem;
-}
-
-#db-title, #db-content {
-  font-size: 1rem;
 }
 
 #table-head {

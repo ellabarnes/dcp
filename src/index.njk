@@ -6,7 +6,7 @@
 
 {% block content %}
 <div class="container text-center">
-  <h1 id="index-head">Follow along here</h1>
+  <h1 id="index-head">follow along here</h1>
   <p id="index-blurb">Come back evey Sunday for my weekly update!</p>
 </div>
 <div class="container">
@@ -17,8 +17,8 @@
         <div class="card-body text-center p" id="cards-index">
           <div class="container" id="card-texts">
             <h3 class="card-title"> {{ post.title}} </h3>
-            <p> {{post.blurb}}</p>
-            <a href="posts/{{post.slug}}.html" class="card-link"> Read more here! </a>
+            <p class="card-text"> {{post.blurb}}</p>
+            <a href="posts/{{post.slug}}.html" class="card-link"> Click here for week {{post.week_num}}'s full post!</a>
           </div>
         </div>
       </div>
