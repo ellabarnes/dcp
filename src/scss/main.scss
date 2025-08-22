@@ -36,29 +36,19 @@ body {
   background-color: $secondary;
 }
 
-h1 {
+#index-head {
   color: $secondary;
   font-family: 'Bonbon', sans-serif;
-}
-
-h3 {
-  font-size: 1.5rem;
 }
 
 .card-title{
   font-family: 'Bonbon', sans-serif;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
- #blurb, .card-text, .card-link, #index-blurb, #table-head {
+ #blurb, .card-text, .card-link, #post-sub, .post-text {
   font-family: 'IBM Plex Serif', sans-serif;
-}
-
-#index-blurb {
-  text-align: center;
-  color: $primary;
-  font-size: 1vw;
 }
 
 .card-title {
@@ -68,6 +58,7 @@ h3 {
 
 .card-text, .card-link {
   color: black;
+  font-size: 1vw;
 }
 
 #index-head {
@@ -81,4 +72,13 @@ h3 {
   text-align: center;
   border-radius: 5px;
   padding: 2.5px;
+}
+
+.post-title {
+  color: $link-color;
+  font-family: 'Bonbon', sans-serif;
+}
+
+#post-sub, .post-text {
+  color: $primary,
 }
