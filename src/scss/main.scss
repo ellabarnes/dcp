@@ -44,7 +44,6 @@ body {
 .card-title{
   font-family: 'Bonbon', sans-serif;
   font-style: normal;
-  font-size: 2vw;
 }
 
  #blurb, .card-text, .card-link, #post-sub, .post-text {
@@ -58,12 +57,10 @@ body {
 
 .card-text, .card-link {
   color: black;
-  font-size: 1vw;
 }
 
 #index-head {
   color: $link-color;
-  font-size: 3.5vw;
 }
 
 #table-head {
