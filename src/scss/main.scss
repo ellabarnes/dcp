@@ -32,6 +32,10 @@ $text: #FDFCFB;
 @import 'nav';
 @import 'jumbotron';
 
+body {
+  background-color: $secondary;
+}
+
 h1 {
   color: $secondary;
   font-family: 'Bonbon', sans-serif;
@@ -44,29 +48,17 @@ h3 {
 .card-title{
   font-family: 'Bonbon', sans-serif;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 3vw;
 }
 
-#rating, #spotify-link, #blurb, .card-text, .card-link, #index-blurb, #db-title, #db-content, #table-head {
+ #blurb, .card-text, .card-link, #index-blurb, #table-head {
   font-family: 'IBM Plex Serif', sans-serif;
 }
 
-#album-name {
-  font-size: 4rem;
+#index-blurb {
   text-align: center;
-}
-
-#rating {
-  font-style: italic;
-  background-color: $indigo;
-  border-radius: 5px;
-  color: white;
-  text-align: center;
-  padding: 2.5px;
-}
-
-#blurb {
-  text-align: center;
+  color: $primary;
+  font-size: 1vw;
 }
 
 .card-title {
@@ -78,16 +70,9 @@ h3 {
   color: black;
 }
 
-#card-texts {
-  background-color: white;
-  margin-top: 10px;
-  padding: 5px;
-  opacity: 0.8;
-  border-radius: 5px;
-}
-
 #index-head {
-  font-size: 4rem;
+  color: $link-color;
+  font-size: 3.5vw;
 }
 
 #table-head {

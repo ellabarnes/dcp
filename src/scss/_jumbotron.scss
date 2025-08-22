@@ -1,24 +1,20 @@
   
 #jumbo {
-  background: url(../img/castle.JPG) no-repeat center;
+  background: url(../img/jumbo.png) no-repeat center;
   background-size: cover;
-  color: white;
   padding-top: 12rem;
-  opacity: 0.8;
 }
 
 #jumbo-head, #jumbo-sub {
   text-align: center;
-  color: $text;
-  opacity: 1;
+  color: $primary;
 }
 
 #jumbo-head {
   font-family: 'Bonbon', sans-serif;
   font-style: normal;
-  font-size: 5vw;
+  font-size: 5.5vw;
   letter-spacing: 0.2rem;
-  opacity: 1;
 }
 
 #jumbo-sub {
