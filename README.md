@@ -1,3 +1,3 @@
 ## My Disney College Program Blog
 
-I'll hopefully be posting weekly, if my scheule allows. Check back to see what I'm up to! :)
+I'll hopefully be posting weekly, if my schedule allows. Check back here to see what I'm up to! :)
