@@ -46,7 +46,7 @@ body {
   font-style: normal;
 }
 
- #blurb, .card-text, .card-link, #post-sub, .post-text {
+ #blurb, #caption, .card-text, .card-link, #post-sub, .post-text {
   font-family: 'IBM Plex Serif', sans-serif;
 }
 
@@ -78,4 +78,8 @@ body {
 
 #post-sub, .post-text {
   color: $primary,
+}
+
+#caption {
+  color: $text;
 }
